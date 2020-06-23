@@ -1,0 +1,67 @@
+.result {
+    position: relative;
+    margin: 30px auto;
+    width: 80%;
+    height: 50%;
+    border: 2px solid #000;
+}
+h1 {
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: -45px;
+    transform: translateX(-50%);
+}
+
+.result-text {
+    
+    width: 50%;
+    margin: 0 auto;
+}
+.result p {
+    margin-top: 100px;
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+    height: 22px;
+    text-align: center;
+}
+.result a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 100px auto;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(16, 167, 79);
+    box-shadow: 0 8px rgb(3, 126, 54);
+}
+.result a:active {
+    margin-top: 108px;
+    box-shadow: none;
+}
+.btn {
+    background: rgb(44, 16, 167); 
+    box-shadow: 0 8px rgb(33, 11, 134);
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    margin: 45px auto;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50px;
+    user-select: none;
+}
+.btn:active {
+    box-shadow: none;
+    margin-top: 53px;
+}
+
+@media screen and (max-width: 700px){
+    
+    .result a {
+        width: auto;
+    }
+}
